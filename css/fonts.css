@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Trebuchet MS';
+    src: url('fonts/ofont_ru_TrebuchetMS.eot');
+    src: url('fonts/ofont_ru_TrebuchetMS.eot') format('embedded-opentype'),
+         url('fonts/ofont_ru_TrebuchetMS.woff2') format('woff2'),
+         url('fonts/ofont_ru_TrebuchetMS.woff') format('woff'),
+         url('fonts/ofont_ru_TrebuchetMS.ttf') format('truetype'),
+         url('fonts/ofont_ru_TrebuchetMS.svg#ofont_ru_TrebuchetMS') format('svg');
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSansRegular.eot');
+    src: url('fonts/OpenSansRegular.eot') format('embedded-opentype'),
+         url('fonts/OpenSansRegular.woff2') format('woff2'),
+         url('fonts/OpenSansRegular.woff') format('woff'),
+         url('fonts/OpenSansRegular.ttf') format('truetype'),
+         url('fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
