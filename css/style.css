@@ -126,9 +126,9 @@ header .navbar .nav-item:hover a {
 .right-aside.advertising.fixed-top{left: 72%;margin-left: 1%;}
 .left-aside.advertising.fixed-top{left:16%;margin-right: 0.5%;}
 @media (min-width : 1600px) and (max-width : 1860px){
-  .advertising.fixed-top{width:18vw; z-index: 190;}
+  .advertising.fixed-top{width:13vw; z-index: 190;}
   .right-aside.advertising.fixed-top{left: 76%;}
-  .left-aside.advertising.fixed-top{left:5%;}
+  .left-aside.advertising.fixed-top{left:10%;}
 }
 @media (min-width : 1540px) and (max-width : 1599px){
   .advertising.fixed-top{width:14vw; z-index: 190;}
@@ -1112,7 +1112,6 @@ header .navbar .nav-item {
 .home_page.weapon #wrap.three_owls .ih-item:nth-child(2)
 { margin-right: 55%;}
 .home_page.miracles #wrap.three_owls .ih-item:nth-child(2){margin-right: 50%;}
-
 #wrap.five_owls .ih-item:nth-child(6) {margin-right: 55%;}
 #wrap.five_owls .ih-item:nth-child(9),
 .home_page.culture #wrap.three_owls .ih-item:nth-child(5),
