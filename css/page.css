@@ -640,7 +640,8 @@ justify-content: space-around;
   background-image: linear-gradient(to top, rgba(223,223,223,.8), rgba(243,243,243,.8));
 }
 .guest .guest_form .guest_form-textaria input:hover{box-shadow: none;}
-.guest .main_block-text  .container_comment-block {
+.guest .main_block-text  .container_comment-block,
+.login .main_block-text  .container_comment-block {
   -webkit-border-radius: 4px;
 -moz-border-radius: 4px;
 border-radius: 4px;
@@ -650,7 +651,9 @@ margin-top: 5em;
 margin-bottom: 6em;
 }
 .guest .main_block-text .container_comment .container_comment-block:nth-child(2n+1){background: #f8f8ff;}
-.guest .guest_text-img {
+.guest .guest_text-img,
+.authorization .guest_text-img,
+.login .main_block-text .guest_text-img{
   display: inline-block;
   width: 100px;
   height: 100px;
@@ -764,6 +767,60 @@ margin-bottom: 6em;
   background-image: -ms-linear-gradient(bottom, #b5d5d7, #639a9d);
   background-image: linear-gradient(to top, #b5d5d7, #639a9d);
 }
+/*-----------страница авторезированного пользователя ----------*/
+.authorization {
+  padding: 7px 0;
+  border-radius: 0.625em;
+  border: #d3d4d4 1px solid;
+}
+.authorization p{
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(62, 99, 114);
+  line-height: 1.2;
+  text-align: left;
+  margin-bottom: 7px;
+}
+.home_page.login .block_middle .main .main_block-text{padding: 30px 43px; }
+.authorization .guest_text-img,
+.login .main_block-text .guest_text-img {
+  width: 80px;
+  height: 80px;
+  margin-top: auto;
+}
+.authorization .guest_text-img img,
+.login .main_block-text .guest_text-img img {
+  width: 72px;
+  height: 72px;
+}
+.authorization a{
+  font-size: 11px;
+  font-family: "Open Sans";
+  color: rgb(58, 159, 203);
+  text-decoration: underline;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 600;
+}
+.login .main_block-text  .container_comment-block {
+  background: #f8f8ff
+  ;padding: 13px;
+  margin: 0 auto 54px;
+}
+.home_page.login .block_middle .main .main_block-text .container_comment-block p{
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(62, 99, 114);
+  line-height: 1.2;
+}
+.home_page.login .block_middle .main .main_block-text .container_comment-block h4 {
+  font-size: 24px;
+  font-family: "Open Sans";
+  color: rgb(19, 181, 219);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
 /*-----------страница с контентом стили со старой страницы ----------*/
 .home_page.content .block_middle .main .main_block-text.art {
     color: black;
