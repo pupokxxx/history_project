@@ -624,6 +624,8 @@ align-items: center;
 .aside_articles .row .articles_preview p {margin-top: 4%; margin-bottom: 0;}
 .aside_articles .row .articles_preview a:hover, .aside_articles .row .articles_preview a:active {
   color: #cf0f0f;
+  transition-duration: 1.5s;
+  transition-delay: 0.2s;
 }
 
 .aside_articles .aside_articles-data {
